@@ -140,7 +140,7 @@ resource "aws_iam_role_policy_attachment" "devopsshack_cluster_role_policy" {
   policy_arn = "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
 }
 
-resource "aws_iam_role" "devopsshack_node_group_role" {
+resource "aws_iam_role" "devopsshack_node_group_role1" {
   name = "devopsshack-node-group-role"
 
   assume_role_policy = <<EOF
